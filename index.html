@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GS-Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>GS</h1>
+        <nav>
+          <ul class="navegacao">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+          </ul>
+          <i id="icone"class="fa-solid fa-bars" ></i>
+        </nav>
+      </header>
+      <section aria-label="curriculo dowload Gabriel" class="section-div" id="inicio">
+        <div>
+          <h2 class="digitando">Olá, sou Gabriel. Seja muito bem vindo ao meu portfólio.</h2>
+          <h3>Front-end Developer</h3>
+          <p>
+            Com habilidades em HTML, CSS, Javascript, React...
+          </p>
+          <a href="./arquivo-pdf/Gabriel Silva (1).pdf">Dowload CV</a>
+        </div>
+        <img
+          src="https://physicsgurukul.files.wordpress.com/2019/02/character-1.gif"
+          alt="gif bem vindo"
+        />
+      </section>
+      <div class="linha-decorativa">-</div>
+      <main id="sobre">
+        <article aria-label="sobre mim" class="sobre">
+          <div class="sobre-titulo">
+            <h1>Sobre Mim</h1>
+            <p>Desenvolvedor Front-End JR.</p>
+          </div>
+          <img src="./imagens/imagem-gabriel.jfif" alt="imagem de gabriel" />
+          <div class="sobre-conteudo">
+            <div class="sobre-texto">
+              <h1>Eu sou Gabriel Silva,</h1>
+              <p>
+               tenho 19 anos, moro em Cafarnaum - BA. Comecei a estudar programação em 2022 em um curso básico da Rocketseat e logo depois na Origamid onde conheci mais afundo oque é programação e venho aprofundando meus conhecimentos em HTML, CSS, JavaScript e React. Sou curioso e gosto bastante de aprender coisas novas que me desafiam, foco em resultados e sempre me mantenho atualizado . Estou em busca da minha primeira experiência profissional na área, para consolidar ainda mais os conhecimentos aprendidos até agora, poder contribuir em novos projetos, desenvolver novas habilidades e aprender novas tecnologias.  
+              </p>
+            </div>
+          </div>
+        </article>
+      </main>
+      <div class="projeto-titulo" id="projetos">
+        <h2>Projetos</h2>
+      </div>
+      <article aria-label="meus-projetos" class="projetos">
+        <div class="card">
+          <h3>Meus-Links</h3>
+          <img src="./imagens/Gsprojeto-1.png" alt="projeto-1" />
+          <details>
+            <summary>Tecnologias utilizadas</summary>
+            HTML / CSS e JavaScript
+        </details>
+          <a href="https://lnkd.in/dxYnXpHg" target =" _blank ">Ver projeto</a>
+        </div>
+        <div class="card">
+          <h3>landing page</h3>
+          <img src="./imagens/Gsprojeto-2.png" alt="projeto-2" />
+          <details>
+            <summary>Tecnologias utilizadas</summary>
+            HTML / CSS e JavaScript
+        </details>
+          <a href="https://gaabriels.github.io/projeto-devcode-TLoU/"
+          target =" _blank " >Ver projeto</a
+          >
+        </div>
+        <div class="card">
+          <h3>Calculadora</h3>
+          <img src="./imagens/Gsprojeto-3.png" alt="projeto-3" />
+          <details>
+            <summary>Tecnologias utilizadas</summary>
+            HTML / CSS e JavaScript
+        </details>
+          <a href="https://gabriel-calculadora-58f209.netlify.app/"
+          target =" _blank " >Ver projeto</a
+          >
+        </div>
+        <div class="card">
+          <h3>CTL-financeiro</h3>
+          <img src="./imagens/Gsprojeto-4.png" alt="projeto-4" />
+          <details>
+            <summary>Tecnologias utilizadas</summary>
+            Controle de Finanças com React.JS
+        </details>
+          <a href="https://subtle-liger-2f8542.netlify.app/"
+          target =" _blank " >Ver projeto</a
+          >
+        </div>
+      </article>
+      <div class="ver-mais">
+        <a href="https://github.com/GaabrielS?tab=repositories" target =" _blank ">Ver Mais</a>
+      </div>
+    </div>
+<footer id="contatos">
+  <div class="footer-titulo">
+    <h2>Contatos<h2>
+  </div>
+       <nav aria-label="navega de links sociais">
+<ul class="footer-sociais">
+  <li><a href="https://www.instagram.com/gaabriel.46/" target =" _blank "><i class="fa-brands fa-instagram"></i></a></li>
+  <li><a href="https://www.linkedin.com/in/gaabrielsilva/" target =" _blank "><i class="fa-brands fa-linkedin-in"></i></a></li>
+  <li><a href="https://github.com/GaabrielS" target =" _blank "><i class="fa-brands fa-github-alt"></i></a></li>
+</ul>
+       </nav>
+        <p class="footer-comercial">Todos os direitos reservados Gabriel Silva &copy; - 2023</p>
+</footer>
+    <script src="script.js"></script>
+    <script>
+    VanillaTilt.init(document.querySelectorAll(".card img"))
+    </script>
+  </body>
+</html>
